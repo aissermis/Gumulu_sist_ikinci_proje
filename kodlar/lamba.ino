@@ -35,13 +35,13 @@ void loop() {
     {
       if (!isik_durumu)
         {
-          state=0;
+          state=1;
           isik_durumu = true;
           digitalWrite(role, HIGH);
         }
         else if (isik_durumu)
         {
-          state=1;
+          state=0;
           isik_durumu = false;
           digitalWrite(role, LOW);
         }
