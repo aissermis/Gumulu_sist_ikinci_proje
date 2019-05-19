@@ -1,4 +1,4 @@
-int ses_sensoru = 4;
+int ses_sensoru = 2;
 int role = 5;
 int alkis = 0;
 long algilama_araligi_baslangic = 0;
