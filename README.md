@@ -61,3 +61,13 @@ Proje Kodlarını yukardan direk indirebileceğiniz gibi, aşağıdanda ulaşabi
 <br>   if(Serial.available()>0){
    <br>  state=Serial.read();
 <br> }
+ <br>if((alkis==0 || alkis==1) && state=='1')
+ <br> {
+  <br>  isik_durumu=true;
+ <br>   digitalWrite(role,HIGH);
+   <br> }
+<br>  else if((alkis==0 || alkis==1) && state=='0')
+<br>  {
+ <br>   isik_durumu=false;
+ <br>   digitalWrite(role,LOW);}
+  <br>}
